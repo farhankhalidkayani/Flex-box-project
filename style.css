@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    height: 10rem;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links {
+    display: flex;
+}
+
+ul {
+    width: 300px;
+    list-style: none;
+    gap: 15px;
+    justify-self: center;
+}
+
+.Logo {
+    padding: 10px;
+    margin: 10px 100px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.Top {
+    background-color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+
+
+
+
+
+
+}
+
+.Top div {
+    flex: 1;
+
+
+
+
+}
+
+.TopHeading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+
+    display: flex;
+    align-items: center;
+
+    width: 400px;
+    text-align: center;
+
+}
+
+.TopContent {
+    font-size: 18px;
+    color: #e5e7eb;
+
+    align-items: center;
+    display: flex;
+
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.TopRight {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: flex-end;
+
+
+
+
+}
+
+.TopImage img {
+    margin: 50px 50px;
+    width: 300px;
+
+}
+
+.Middle {
+    height: 400px;
+}
+
+.MiddleHeading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.skills img {
+    width: 130px;
+    border-radius: 25%;
+    border: 2px solid #1f2937;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Bottom {
+    background-color: #e5e7eb;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bottom .text {
+    background-color: #1f2937;
+    width: 400px;
+    height: 100px;
+    color: #e5e7eb;
+    text-align: center;
+    padding-top: 30px;
+    flex: 0 1 300px;
+    border-radius: 10%;
+
+}
+
+footer {
+    background-color: #1f2937;
+    height: 100px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+    padding-top: 40px;
+
+}
