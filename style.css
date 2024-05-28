@@ -108,8 +108,21 @@ ul {
 
 }
 
+.TopImage div {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.TopImage {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
 .TopImage img {
-    margin: 50px 50px;
+
     width: 300px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
