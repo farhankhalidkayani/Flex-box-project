@@ -111,6 +111,16 @@ ul {
 .TopImage img {
     margin: 50px 50px;
     width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: 0.25s;
+
+}
+
+.TopImage img:hover {
+
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+
 
 }
 
